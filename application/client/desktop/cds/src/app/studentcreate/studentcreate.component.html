@@ -1,0 +1,14 @@
+<h2 class="screen-align">Studentcreate</h2>
+<div id="template-im2z" class="row">
+    <div id="template-iizc" class="cell">
+        <label id="template-i48a" class="label">Name</label>
+        <input id="template-ijg4" placeholder="Enter Name" [(ngModel)]="student.name"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-iw6j" class="cell">
+        <label id="template-iozg" class="label">Email</label>
+        <input id="template-i2j4" placeholder="Enter Email" [(ngModel)]="student.email"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+</div>
+<button id="template-imnl" (click)="GpCreate()" class="button btn btn-primary">Create</button>
